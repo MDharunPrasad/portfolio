@@ -3,13 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <!-- ===== CSS ===== -->
         <link rel="stylesheet" href="styles.css">
-
-        <!-- ===== BOX ICONS ===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
         <title>Portfolio </title>
         <link rel="icon" href="images/1.webp">
     </head>
@@ -68,6 +63,9 @@
                         <div class="about__social">
                             <a href="https://www.linkedin.com/in/dharun-prasad-m-328974228/" class="about__social-icon"><i class='bx bxl-linkedin' ></i></a>
                             <a href="https://github.com/MDharunPrasad" class="about__social-icon"><i class='bx bxl-github' ></i></a>
+                            <div class="but">
+                               <a href="resume/updated.pdf" style="text-decoration: none;" target="_blank"><p>Resume</p></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -151,6 +149,8 @@
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
+                
+
 
                 <div class="contact__container bd-grid">
                     <div class="contact__info">
@@ -164,26 +164,21 @@
                         <span class="contact__text">Dindigul,Palani.</span>
                     </div>
 
-                    <form action="" class="contact__form">
-                        <div class="contact__inputs">
-                            <input type="text" placeholder="Name" class="contact__input">
-                            <input type="mail" placeholder="Email" class="contact__input">
-                        </div>
-
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-
-                        <input type="submit" value="submit" class="contact__button">
-                    </form>
+                    <div>
+                        <img width="400" height="400" src="https://cliply.co/wp-content/uploads/2019/02/371901270_KISSCHAT_400.gif" class="attachment-medium_large size-medium_large" alt="" loading="lazy">
+                    </div>
                 </div>
             </section>
         </main>
-
+        <div class="sup">
+            <h2 class="surprise" id="surprise" onclick="supfun()">Touch Me</h2>
+        </div>
         <!--===== FOOTER =====-->
         <footer class="footer section">
             <div class="footer__container bd-grid">
                 <div class="footer__data">
                     <h2 class="footer__title">Dharunprasad M</h2>
-                    <p class="footer__text">I'm Dharunprasad and this is my portfolio</p>
+                    <p class="footer__text">Have a nice day and take care ba-byeeee ! 🤍 </p>
                 </div>
 
                 <div class="footer__data">
@@ -200,7 +195,7 @@
                 <div class="footer__data">
                     <h2 class="footer__title">FOLLOW</h2>
                     <a href="https://www.linkedin.com/in/dharun-prasad-m-328974228/" class="footer__social"><i class='bx bxl-linkedin' ></i></a>
-                    <a href="#" class="footer__social"><i class='bx bxl-instagram' ></i></a>
+                    <a href="https://www.instagram.com/_the_dharun?igsh=MTdya2M0OXdnNGlmOA%3D%3D&utm_source=qr" class="footer__social"><i class='bx bxl-instagram' ></i></a>
                     <a href="https://github.com/MDharunPrasad" class="footer__social"><i class='bx bxl-github' ></i></a>
                 </div>
 
@@ -208,6 +203,19 @@
             </div>
         </footer>
 
-       
+        
+
+       <script>
+        
+        function supfun(){
+
+            var one = document.getElementById("surprise");
+            one.textContent = "YOUR ARE AWESOME 😻";
+            
+
+
+        }
+
+       </script>
     </body>
 </html>
