@@ -511,6 +511,31 @@ box-shadow: 0 0 23px #5361FF;
 
 
 }
+/* General CSS */
+.but {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Mobile-specific CSS */
+@media (max-width: 768px) {
+    .but {
+        margin: 0 auto;
+        width: 100%; /* Full width on mobile */
+    }
+
+    .but a {
+        display: block;
+        text-align: center; /* Ensure the text inside is centered */
+        background-color: #3498db; /* Add background color if needed */
+        padding: 10px 20px; /* Add some padding for better appearance */
+        border-radius: 5px; /* Optional: Add rounded corners */
+        color: white; /* Text color */
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
 
 @keyframes fade{
     0%{
